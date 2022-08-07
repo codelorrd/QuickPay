@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------HEADER--------------------------------- */
+
+header {
+    background-image: url('/images/Group0.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 100px;
+}
+
+nav {
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.nav-links > ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links ul a {
+    font-weight: 500;
+}
+
+.login {
+    padding: 7px 45px;
+    border: none;
+    border-radius: 70px;
+    background-color: purple;
+    color: #fff;
+}
+
+.hero {
+    margin-top: 100px;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero h1  {
+    width: 80%;
+    font-size: 4.4rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.hero p > span {
+    /* color: rgb(211, 211, 9); */
+    color: orange;
+}
+
+.get-started {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 100px;
+    font-weight: 300;
+    color: #fff;
+    background-color: purple;
+}
+
+
+/* ----------------------------COMPANIES LOGO------------------------- */
+
+.badges {
+    display: flex;
+    align-items: center;
+    padding: 0 3rem;
+    justify-content: space-evenly;
+    margin: 35px 0;
+}
+
+section.companies {
+    margin-bottom: 100px;
+}
+
+section.companies hr {
+    width: 85%;
+    margin:  0 auto;
+    opacity: .3;
+}
+
+/* ---------------------------ABOUT----------------------- */
+
+section.about {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+section.about .container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.about-text {
+    margin-top: 50px;
+}
+
+.about-text h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about-text p {
+    opacity: .7;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.about-text a {
+    font-weight: 600;
+    font-size: 19px;
+    color: purple;
+}
+
+/* ---------------------------------FEATURES----------------------------- */
+
+.features h2 {
+    font-size: 2.4rem;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+}
+
+.feature-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.feature-card img {
+    align-self: flex-start;
+}
+
+.feature-card-text h3 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feature-card-text p {
+    font-size: 16px;
+}
+
+/* ------------------------------------------PURCHASE-------------------------------------- */
+
+section.purchase {
+    background-color: purple;
+    margin-top: 100px;
+}
+
+section.purchase .container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    gap: 50px;
+}
+
+.purchase-text {
+    margin-top: 100px;
+}
+
+.purchase-text h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.purchase-text p {
+    font-size: 17px;
+    opacity: .9;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.purchase-text img {
+    margin-right: 10px;
+}
+
+
+/* -----------------------------------EXTRAS------------------------------- */
+
+.do-more {
+    margin-top: 100px;
+}
+
+.do-more h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.do-moress {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.do-mores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.do-mores img {
+    margin-bottom: 40px;
+}
+
+.do-mores h3 {
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.do-mores p {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* --------------------------CTA---------------------- */
+
+section.cta {
+    background-color: #FCE8CC;
+    margin-top: 80px;
+}
+
+section.cta .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-top: 6rem;
+    gap: 50px;
+}
+
+.cta-text h2 {
+    font-size: 3.1rem;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.cta-text p {
+    width: 95%;
+    line-height: 2;
+    margin-bottom: 60px;
+}
+
+.cta-text a {
+    color: purple;
+    font-weight: 500;
+    border: 1px solid purple;
+    padding: 17px 25px;
+    border-radius: 10px;
+}
+
+/* -----------------------------------MAIL LIST------------------------------- */
+
+section.mail-list {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.mail-list .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background: url('/images/BGMask1.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    padding: 2rem 2.2rem;
+}
+
+.mail h3 {
+    font-size: 2rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    height: 48px;
+    width: 220px;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    outline: none;
+}
+
+button {
+    margin-left: -5px;
+    padding: 9px 17px;
+    margin-top: 15px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background-color: orange;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* -------------------------------------FOOTER-------------------------------------- */
+
+footer {
+    background-color: #000000;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .useful-nav-links > p {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+footer ul {
+    display: flex;
+    font-weight: 300;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+footer .useful-nav-links .copyright {
+    font-size: 16px;
+    opacity: .7;
+    font-weight: 300;
+}
+
+.footer-badges img {
+    display: block;
+    margin-top: 25px;
+}
